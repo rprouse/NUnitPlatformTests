@@ -1,10 +1,10 @@
 ﻿using System;
 using NUnit.Framework;
 
-namespace NetStandardTests
+namespace NetCoreTests
 {
     [TestFixture]
-    public class NetStandardClass
+    public class NUnitNetCoreClass
     {
         [Test]
         public void APassingTest()
