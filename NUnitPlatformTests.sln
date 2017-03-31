@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStandardTests", "NetStandardTests\NetStandardTests.csproj", "{12982898-CCCE-477E-B4F9-12EE410F85F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreTests", "NetCoreTests\NetCoreTests.csproj", "{E5B18241-8B22-4741-A0C1-5342BC72EDE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject", "XUnitTestProject\XUnitTestProject.csproj", "{886C9CD9-0927-468D-811C-62219FECA7E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{12982898-CCCE-477E-B4F9-12EE410F85F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{12982898-CCCE-477E-B4F9-12EE410F85F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{12982898-CCCE-477E-B4F9-12EE410F85F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{12982898-CCCE-477E-B4F9-12EE410F85F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5B18241-8B22-4741-A0C1-5342BC72EDE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5B18241-8B22-4741-A0C1-5342BC72EDE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5B18241-8B22-4741-A0C1-5342BC72EDE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5B18241-8B22-4741-A0C1-5342BC72EDE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{886C9CD9-0927-468D-811C-62219FECA7E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{886C9CD9-0927-468D-811C-62219FECA7E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{886C9CD9-0927-468D-811C-62219FECA7E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{886C9CD9-0927-468D-811C-62219FECA7E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
