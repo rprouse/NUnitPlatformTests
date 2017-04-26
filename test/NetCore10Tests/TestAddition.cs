@@ -34,5 +34,14 @@ namespace NetCore10Tests
             yield return new TestCaseData(6, 4, 10);
             yield return new TestCaseData(10, -15, -5);
         }
+
+        [TestCase(int.MaxValue, 1)]
+        [TestCase(int.MinValue, 1)]
+        [TestCase(1, int.MaxValue)]
+        [TestCase(1, int.MinValue)]
+        public void ThrowsArgumentException(int x, int y)
+        {
+            Assert.That(() => _add.Add(x, y), Throws.ArgumentException);
+        }
     }
 }
