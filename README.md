@@ -1,6 +1,6 @@
 # NUnit Platform Tests
 
-NUnit tests targetting various platforms like .NET Core. I am using this to test the NUnit Visual Studio Adapter updates.
+NUnit tests targeting various platforms like .NET Core. I am using this to test the NUnit Visual Studio Adapter updates.
 
 ### Projects
 
