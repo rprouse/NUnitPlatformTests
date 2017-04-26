@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.0
+VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreTests", "NetCoreTests\NetCoreTests.csproj", "{E5B18241-8B22-4741-A0C1-5342BC72EDE6}"
 EndProject
@@ -12,11 +12,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitClrTests", "NUnitClrTests\NUnitClrTests.csproj", "{8EDF4429-251A-416D-BB68-93F227191BCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreNetCoreTests", "MoreNetCoreTests\MoreNetCoreTests.csproj", "{2385C59E-86EC-47A9-92E5-180004CCF9A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoreNetCoreTests", "MoreNetCoreTests\MoreNetCoreTests.csproj", "{2385C59E-86EC-47A9-92E5-180004CCF9A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitClrNewStyleTests", "NUnitClrNewStyleTests\NUnitClrNewStyleTests.csproj", "{825D46BD-4E5C-4FA2-A684-D638CD05B68F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnitClrNewStyleTests", "NUnitClrNewStyleTests\NUnitClrNewStyleTests.csproj", "{825D46BD-4E5C-4FA2-A684-D638CD05B68F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject", "XUnitTestProject\XUnitTestProject.csproj", "{E52CEA0C-7351-428A-88B2-BD1C3306D3AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestProject", "XUnitTestProject\XUnitTestProject.csproj", "{E52CEA0C-7351-428A-88B2-BD1C3306D3AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStandard13Library", "NetStandard13Library\NetStandard13Library.csproj", "{335E6993-3E76-47EB-8EAD-D016152606D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,6 +46,10 @@ Global
 		{E52CEA0C-7351-428A-88B2-BD1C3306D3AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E52CEA0C-7351-428A-88B2-BD1C3306D3AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E52CEA0C-7351-428A-88B2-BD1C3306D3AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{335E6993-3E76-47EB-8EAD-D016152606D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{335E6993-3E76-47EB-8EAD-D016152606D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{335E6993-3E76-47EB-8EAD-D016152606D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{335E6993-3E76-47EB-8EAD-D016152606D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
