@@ -1,7 +1,7 @@
 ﻿using System;
 using NUnit.Framework;
 
-namespace NetCoreTests
+namespace NetCore11Tests
 {
     [TestFixture]
     public class NUnitNetCoreClass

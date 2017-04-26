@@ -1,7 +1,7 @@
 ﻿using System;
 using NUnit.Framework;
 
-namespace MoreNetCoreTests
+namespace NetCore10Tests
 {
     [TestFixture]
     public class MoreNetCoreTests

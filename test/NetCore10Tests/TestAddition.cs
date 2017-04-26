@@ -2,7 +2,7 @@
 using NetStandard13Library;
 using NUnit.Framework;
 
-namespace MoreNetCoreTests
+namespace NetCore10Tests
 {
     [TestFixture]
     public class TestAddition

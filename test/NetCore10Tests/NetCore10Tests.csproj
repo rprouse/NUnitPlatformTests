@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NetStandard13Library\NetStandard13Library.csproj" />
+    <ProjectReference Include="..\..\src\NetStandard13Library\NetStandard13Library.csproj" />
   </ItemGroup>
 
   <ItemGroup>
