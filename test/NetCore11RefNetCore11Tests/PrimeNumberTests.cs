@@ -14,6 +14,7 @@ namespace NetCore11RefNetCore11Tests
             Assert.That(primes.Count(), Is.EqualTo(count));
         }
 
+        [Category("Whatever")]
         [Test]
         public void ThrowsArgumentExceptionWhenLessThanZero()
         {

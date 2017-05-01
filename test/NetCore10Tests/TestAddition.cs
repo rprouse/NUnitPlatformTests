@@ -43,5 +43,7 @@ namespace NetCore10Tests
         {
             Assert.That(() => _add.Add(x, y), Throws.ArgumentException);
         }
+
+
     }
 }

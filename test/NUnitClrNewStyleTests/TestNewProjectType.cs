@@ -11,5 +11,12 @@ namespace NUnitClrNewStyleTests
         {
             Assert.Pass("This works too!");
         }
+
+        [Category("Whatever")]
+        [Test]
+        public void NewStyleUnitTests2()
+        {
+            Assert.Pass("This works too!");
+        }
     }
 }

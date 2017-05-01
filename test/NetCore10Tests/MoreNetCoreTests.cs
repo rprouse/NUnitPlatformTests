@@ -11,5 +11,12 @@ namespace NetCore10Tests
         {
             Assert.Pass("Passes");
         }
+
+        [Category("Whatever")]
+        [Test]
+        public void OneMoreDotNetCoreTests()
+        {
+            Assert.Pass("Passes");
+        }
     }
 }

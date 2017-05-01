@@ -16,5 +16,13 @@ namespace NUnitClrTests
             // TODO: Add your test code here
             Assert.Pass("Your first passing test");
         }
+
+        [Category("Whatever")]
+        [Test]
+        public void TestMethod2()
+        {
+            // TODO: Add your test code here
+            Assert.Pass("Your first passing test");
+        }
     }
 }

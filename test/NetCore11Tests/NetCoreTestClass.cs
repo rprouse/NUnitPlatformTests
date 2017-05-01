@@ -12,6 +12,13 @@ namespace NetCore11Tests
             Assert.Pass("This works!");
         }
 
+        [Category("Whatever")]
+        [Test]
+        public void OneMorePassingTest()
+        {
+            Assert.Pass("This works!");
+        }
+
         [TestCase(1, 2, 3)]
         [TestCase(3, 2, 5)]
         public void TestAddition(int x, int y, int expected)
