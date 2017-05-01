@@ -25,5 +25,30 @@ namespace NetCore11Tests
         {
             Assert.That(x + y, Is.EqualTo(expected));
         }
+
+        [Test]
+        public void FailingTest()
+        {
+            Assert.Fail("This is intended to fail");
+        }
+
+        [Test]
+        public void AssertIgnoreTest()
+        {
+            Assert.Ignore("Ignoring with an assert");
+        }
+
+        [Test]
+        [Ignore("Ignoring with an attribute")]
+        public void AttributeIgnoreTest()
+        {
+            Assert.Fail("This should be ignored");
+        }
+
+        [Test]
+        public void FailsAssumptionTest()
+        {
+            Assume.That(false, "Failed an assumption");
+        }
     }
 }
