@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9E719F86-38C3-4757-8374-D43D3E0DC84C}"
 	ProjectSection(SolutionItems) = preProject
@@ -23,15 +23,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnitClrNewStyleTests", "te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitClrTests", "test\NUnitClrTests\NUnitClrTests.csproj", "{8EDF4429-251A-416D-BB68-93F227191BCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStandard16Library", "src\NetStandard16Library\NetStandard16Library.csproj", "{9AB90F48-37DB-4BC6-A5C2-0F45A2F28DA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetStandard16Library", "src\NetStandard16Library\NetStandard16Library.csproj", "{9AB90F48-37DB-4BC6-A5C2-0F45A2F28DA2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreApp11", "src\NetCoreApp11\NetCoreApp11.csproj", "{A96461A7-CF99-43FE-AE72-0B741140843D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore11RefNetCore11Tests", "test\NetCore11RefNetCore11Tests\NetCore11RefNetCore11Tests.csproj", "{9AF12350-FC1A-4FDD-946C-D108DFFBD992}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore11RefNetCore11Tests", "test\NetCore11RefNetCore11Tests\NetCore11RefNetCore11Tests.csproj", "{9AF12350-FC1A-4FDD-946C-D108DFFBD992}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiTargetTests", "test\MultiTargetTests\MultiTargetTests.csproj", "{6EDE819D-9646-442A-BA66-9268286B481C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net35Tests", "Net35Tests\Net35Tests.csproj", "{795957CC-4E94-4EE2-BE62-367E84063653}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore20Tests", "test\NetCore20Tests\NetCore20Tests.csproj", "{81A8CEB6-0066-4195-B398-3B5C24C94C37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStandard20Library", "src\NetStandard20Library\NetStandard20Library.csproj", "{28E7B7EE-F8DA-4842-8670-0B81AE51DB6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +83,14 @@ Global
 		{795957CC-4E94-4EE2-BE62-367E84063653}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{795957CC-4E94-4EE2-BE62-367E84063653}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{795957CC-4E94-4EE2-BE62-367E84063653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81A8CEB6-0066-4195-B398-3B5C24C94C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81A8CEB6-0066-4195-B398-3B5C24C94C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81A8CEB6-0066-4195-B398-3B5C24C94C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81A8CEB6-0066-4195-B398-3B5C24C94C37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28E7B7EE-F8DA-4842-8670-0B81AE51DB6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E7B7EE-F8DA-4842-8670-0B81AE51DB6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E7B7EE-F8DA-4842-8670-0B81AE51DB6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E7B7EE-F8DA-4842-8670-0B81AE51DB6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -94,5 +106,10 @@ Global
 		{9AF12350-FC1A-4FDD-946C-D108DFFBD992} = {F510E133-8F1F-4055-BAFE-E1EA7C17A59A}
 		{6EDE819D-9646-442A-BA66-9268286B481C} = {F510E133-8F1F-4055-BAFE-E1EA7C17A59A}
 		{795957CC-4E94-4EE2-BE62-367E84063653} = {F510E133-8F1F-4055-BAFE-E1EA7C17A59A}
+		{81A8CEB6-0066-4195-B398-3B5C24C94C37} = {F510E133-8F1F-4055-BAFE-E1EA7C17A59A}
+		{28E7B7EE-F8DA-4842-8670-0B81AE51DB6B} = {6200D8F1-A927-4544-BDE3-C8129096815F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C14C1CD5-4F57-4EB8-B2CE-7D0D92DB3E4D}
 	EndGlobalSection
 EndGlobal
