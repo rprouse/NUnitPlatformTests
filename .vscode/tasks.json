@@ -7,7 +7,7 @@
         {
             "taskName": "build",
             "args": [
-                "${workspaceRoot}/test/NetCore10Tests/NetCore10Tests.csproj"
+                "${workspaceRoot}/test/NetCore20Tests/NetCore20Tests.csproj"
             ],
             "isBuildCommand": true,
             "problemMatcher": "$msCompile"
